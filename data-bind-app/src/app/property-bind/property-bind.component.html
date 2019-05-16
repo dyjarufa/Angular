@@ -1,0 +1,11 @@
+<p>
+  property-bind works!
+</p>
+
+ <button mat-button [color]="color">My first button</button> <!-- quando envolvo com os colchetes, ele interpreta o valor declarado de "color" -->
+ 
+ <!--<button mat-button disabled="true">My first button</button> --> <!--passando valor true de forma estatica para disable -->
+  
+ <button mat-button [disabled]="btnDisabled">My second button</button><!-- Novamente, entre colchetes interpreta o valor do "btnDisabled" -->
+
+ <button mat-button [color]="colors[idx]">My last button</button>
