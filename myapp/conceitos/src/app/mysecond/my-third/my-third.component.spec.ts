@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PropertyBindComponent } from './property-bind.component';
+import { MyThirdComponent } from './my-third.component';
 
-describe('PropertyBindComponent', () => {
-  let component: PropertyBindComponent;
-  let fixture: ComponentFixture<PropertyBindComponent>;
+describe('MyThirdComponent', () => {
+  let component: MyThirdComponent;
+  let fixture: ComponentFixture<MyThirdComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PropertyBindComponent ]
+      declarations: [ MyThirdComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PropertyBindComponent);
+    fixture = TestBed.createComponent(MyThirdComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
